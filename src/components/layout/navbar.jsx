@@ -13,7 +13,7 @@ const Navbar = () => {
         <button
             className={`flex bg-red-800 p-3 text-sm text-white font-bold rounded-lg cursor-pointer transition duration-300 hover:bg-green-700 md:px-6 md:py-3 md:text-base`}
             onClick={handleContactClick}
-            title ='mailto:desturi@gmail.com'
+            title ='mailto:africa.desturi@gmail.com'
           >
             Contact Us
         </button>
