@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 
 const Navbar = () => {
   const handleContactClick = () => {
-    window.location.href = 'mailto:desturi@gmail.com';
+    window.location.href = 'mailto:africa.desturi@gmail.com';
   };
 
   return (
