@@ -4,9 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const handleClick = () => {
-    toast.success("Redirecting to the waitlist form...", {
-      position: toast.POSITION.TOP_CENTER
-    });
+    toast.success("Redirecting to the waitlist form...");
     setTimeout(() => {
       window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSd4tKgVqNxTROZMMXCfikEQjdOUq6u87bfgvGjoUVpj8H7Wjw/viewform?usp=sharing';
     }, 2000)
